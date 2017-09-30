@@ -1,5 +1,4 @@
-# notekeep
-simple cli notekeeping with vi
+# notekeep - simple cli notekeeping with vi
 
   all files need +x
 
