@@ -10,7 +10,7 @@
 #
 ###############################################################################
 
-PROG_DIR=/media/sf_localDocuments/notekeep
+PROG_DIR=/usr/local/notekeep
 
  . ${PROG_DIR}/addition.sh
  . ${PROG_DIR}/deletion.sh
