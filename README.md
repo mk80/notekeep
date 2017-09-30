@@ -5,3 +5,5 @@
   to ease access add ~/notekeep to path
 
   launch with notekeep
+  
+  * deletion.sh doesn't work yet
