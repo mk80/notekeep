@@ -10,7 +10,7 @@
 
 # put me in /usr/local/bin +x
 
-/usr/local/notekeep/menu.sh
+~/notekeep/menu.sh
 
 exit 0
 
