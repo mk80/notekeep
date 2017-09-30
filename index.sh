@@ -8,7 +8,7 @@
 #
 ##############################################
 
-NOTE_DIR=/usr/local/notekeep/notes
+NOTE_DIR=~/notekeep/notes
 
 declare -A notepage
 declare -A notebook
