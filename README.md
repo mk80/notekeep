@@ -1,5 +1,7 @@
 # notekeep - simple cli notekeeping with vi
 
+  location ~/notekeep
+  
   all files need +x
 
   to ease access add ~/notekeep to path
