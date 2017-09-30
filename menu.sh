@@ -10,7 +10,7 @@
 #
 ###############################################################################
 
-PROG_DIR=/usr/local/notekeep
+PROG_DIR=~/notekeep
 
  . ${PROG_DIR}/addition.sh
  . ${PROG_DIR}/deletion.sh
