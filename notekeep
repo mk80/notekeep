@@ -8,7 +8,7 @@
 #
 #######################################
 
-# put me in /usr/local/bin
+# put me in /usr/local/bin +x
 
 /usr/local/notekeep/menu.sh
 
