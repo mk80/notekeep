@@ -8,4 +8,4 @@
 
   launch with notekeep
   
-  * deletion.sh doesn't work yet
+  * deletion.sh : will now delete a page but not a book...
