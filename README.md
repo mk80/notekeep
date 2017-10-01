@@ -4,7 +4,7 @@
   
   all files need +x
 
-  to ease access add ~/notekeep to path
+  to ease access add ~/notekeep to env
 
   launch with notekeep
   
