@@ -27,6 +27,10 @@ numofpages=10
 while [ ${mainloopctl} -gt 0 ]
 do
 	clear
+
+	. ${PROG_DIR}/varhold.sh
+	. ${PROG_DIR}/index.sh
+
 	echo -e "******************************************************"
 	echo -e "*                                                    *"
 	echo -e "*	       Welcome to Note Keep		     *"
@@ -48,7 +52,7 @@ do
 	echo -e "	0	: exit"
 	echo
 	echo -e "	98	: make an addition"
-	echo -e "	99	: make a deletion (under construction)"
+	echo -e "	99	: make a deletion"
 	echo
 	echo -n "	Make a selection: "
 	read menuoption
@@ -91,7 +95,6 @@ do
 	then
 		pagedel
 		. ${PROG_DIR}/index.sh
-		. ${PROG_DIR}/varhold.sh
 	else
 		echo " "
 	fi

@@ -23,7 +23,7 @@ pagedel ()
 	echo
 
 	echo -e "  1. Delete a page"
-	echo -e "  2. Delete entire book"
+	#echo -e "  2. Delete entire book" # future feature
 	echo -e "  0. exit"
 	echo
 	echo -n " selection: "
@@ -52,11 +52,13 @@ pagedel ()
 		echo -n " Which page? "
 		read storepage
 
-		grep -i 'notealias\[${storepage}\]' ${PROG_DIR}/index.sh
+		cat index.sh | awk -v Line="notepage[$storepage]" '!index($0,Line)' > tempfile; cp tempfile index.sh; rm tempfile; chmod +x index.sh
+		cat index.sh | awk -v Line="notealias[$storepage]" '!index($0,Line)' > tempfile; cp tempfile index.sh; rm tempfile; chmod +x index.sh
+		rm ${notepage[${storepage}]}
 
 	elif [ ${pickdel} -eq 2 ]
 	then
-		echo -e "  not yet"
+		echo -e "  not yet "
 	else
 		echo " "
 	fi
