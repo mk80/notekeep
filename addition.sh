@@ -44,7 +44,7 @@ pageadd ()
 		echo -n "  What is the name of the page? "
 		read newpalias
 
-		mkdir ${NOTE_DIR}/${newbalias}
+		mkdir -p ${NOTE_DIR}/${newbalias}
 		touch ${NOTE_DIR}/${newbalias}/${newpalias}
 
 		let "bcount=books+1"
