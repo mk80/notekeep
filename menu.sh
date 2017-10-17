@@ -22,7 +22,6 @@ mainloopctl=1
 menuoption=-1
 workoption='i'
 keyp=''
-numofpages=10
 
 while [ ${mainloopctl} -gt 0 ]
 do
